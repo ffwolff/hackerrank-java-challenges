@@ -1,30 +1,27 @@
-import java.util.Scanner;
+import solutions.*;
 
 public class App {
-
-    static int solveMeFirst (int a, int b) {
-        return a + b;
-    }
-
-    static int SimpleArraySum (int n) {
-        try (Scanner array = new Scanner(System.in)) {
-            int sum = 0;
-
-            for (int i = 0; i < n; i++) {
-                sum += array.nextInt();
-            }
-
-            return sum;
-        }
-    }
-
-
     public static void main(String[] args) throws Exception {
-        try (Scanner in = new Scanner(System.in)) {
-            int n = in.nextInt();
 
-            
-            System.out.println(SimpleArraySum(n));
-        }
+        System.out.println("SOLVE ME FIRST");
+        System.out.println("Instructions:");
+        System.out.println("Type the first number, press ENTER, then type the second number. Press ENTER.");
+        SolveMeFirst solveMeFirst = new SolveMeFirst();
+        solveMeFirst.solve();
+
+        System.out.println("SIMPLE ARRAY SUM");
+        System.out.println("Instructions:");
+        System.out.println("Type the SIZE of the array, press ENTER. Then type all the array numbers, pressing ENTER between them.");
+        SimpleArraySum simpleArraySum = new SimpleArraySum();
+        simpleArraySum.sum();
+
+        System.out.println("COMPARE THE TRIPLETS");
+        System.out.println("Instructions:");
+        System.out.println("Type three numbers for Alice's list, pressing ENTER between them. Then, do the same for Bob's list.");
+        CompareTheTriplets compareTheTriplets = new CompareTheTriplets();
+        compareTheTriplets.compare();
+
+
+        
     }
 }
