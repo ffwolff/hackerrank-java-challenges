@@ -18,3 +18,5 @@ Click on the title to open the challenge page.
 ### [3. Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
 
 ### [4. A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
+
+### [5. Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)
